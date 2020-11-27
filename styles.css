@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans";
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+.top-pattern {
+    overflow: hidden;
+    position: absolute;
+    left: -20%;
+    top: -60%;
+}
+
+.bottom-pattern {
+    position: absolute;
+    left: 50%;
+    top: 50%;  
+}
+
+.container {
+    height: 25rem;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 1.5rem;
+    margin: 10% auto 7%;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}
+
+.card-background {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.myImage {
+    border-radius: 100%;
+    border: 4px solid whitesmoke;
+    position: absolute;
+    top: calc(140px - 50px);
+    left: calc(50% - 50px);
+}
+
+.personal {
+    padding: 0.5rem 0.5rem 1.5rem;
+    line-height: 1.5;
+    margin: 64px auto 18px;
+    border-bottom: 1px solid rgba(117, 126, 169, 0.3);
+}
+
+span {
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.3rem;
+}
+
+.age {
+    display: inline-block;
+}
+
+p {
+    font-weight: 400;
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
+
+.social {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.social span {
+    display: block;
+    padding: 0.5rem 0;
+    margin-bottom: 0.8rem;
+}
